@@ -1,3 +1,6 @@
+
+//Countdigits of a number
+
 function countDigit(n) {
   if (n === 0) return 1;
   let count = 0;
@@ -12,6 +15,8 @@ console.log(countDigit(123456));
 
 ///////////////////////////////////////////////
 
+//Reverse a number
+
 function reverseNuber (num){
   let reversed = 0;
   let n = Math.abs(num);
@@ -25,6 +30,8 @@ function reverseNuber (num){
 console.log(reverseNuber(12345));
 
 ///////////////////////////////////////////
+
+//Check number is palindrome
 
 function isPalindrome(num) {
     if (num < 0) return false; 
