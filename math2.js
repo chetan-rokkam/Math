@@ -1,4 +1,4 @@
-//Greatest common factor
+ //Greatest common factor
 
 function getGCD(a, b) {
   
